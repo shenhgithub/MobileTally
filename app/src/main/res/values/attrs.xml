@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="grid_item_function_name_list">
+        <item>设置</item>
+        <item>航次选择</item>
+        <item>进出口理货</item>
+        <item>进度查询</item>
+        <item>贝位图</item>
+    </string-array>
+
+    <array name="grid_item_function_image_list">
+        <item>@mipmap/voyage</item>
+        <item>@mipmap/voyage</item>
+        <item>@mipmap/voyage</item>
+        <item>@mipmap/voyage</item>
+        <item>@mipmap/voyage</item>
+    </array>
+
+    <string-array name="class_value">
+        <item>白班</item>
+        <item>夜班</item>
+    </string-array>
+
+</resources>

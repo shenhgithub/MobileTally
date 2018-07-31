@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/table_layout_row_margin">
+
+        <TableRow
+            android:layout_marginTop="@dimen/row_default_divide_height"
+            android:background="@color/white"
+            android:gravity="center"
+            android:minHeight="@dimen/edit_default_height">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:width="200dp"
+                android:layout_column="0"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/text_view_default_text_padding_left"
+                android:paddingRight="@dimen/text_view_default_text_padding_right"
+                android:text="日期"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_view_default_text_size"/>
+
+            <TextView
+                android:id="@+id/activity_setting_date_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_weight="5"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/text_view_default_text_padding_left"
+                android:paddingRight="@dimen/text_view_default_text_padding_right"
+                android:inputType="datetime"
+                android:maxLength="30"
+                android:textSize="@dimen/text_view_default_text_size"/>
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="@dimen/row_default_divide_height"
+            android:background="@color/white"
+            android:gravity="center"
+            android:minHeight="@dimen/edit_default_height">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/text_view_default_text_padding_left"
+                android:paddingRight="@dimen/text_view_default_text_padding_right"
+                android:text="班别"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_view_default_text_size"/>
+
+            <Spinner
+                android:id="@+id/activity_setting_class_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_weight="5"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/text_view_default_text_padding_left"
+                android:layout_marginRight="@dimen/setting_margin_right"
+                android:background="@drawable/ump_selectdate_btn_normal"
+                android:textSize="@dimen/text_view_default_text_size"/>
+        </TableRow>
+        <LinearLayout
+            android:layout_marginTop="@dimen/row_default_divide_height"
+            android:background="@color/white"
+            android:gravity="center"
+            android:minHeight="@dimen/edit_default_height">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/text_view_default_text_padding_left"
+                android:paddingRight="@dimen/text_view_default_text_padding_right"
+                android:text="节假日"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_view_default_text_size"/>
+
+            <ToggleButton
+                android:id="@+id/activity_setting_holiday_toggleButton"
+                android:gravity="center_vertical"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="@dimen/setting_margin_right"
+                android:background="@drawable/btn_switch_selector"
+                android:checked="false"
+                android:textOff=""
+                android:textOn="" />
+        </LinearLayout>
+        <TableRow
+            android:layout_marginTop="10dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+

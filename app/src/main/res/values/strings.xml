@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">集装箱理货</string>
+    //首页
+    <string name="voyage_select">航次选择</string>
+    <string name="setting">设置</string>
+    <string name="inout_tally">进出口理货</string>
+    <string name="please_voyage_select">请先选择航次</string>
+
+    //工具栏
+    <string name="move_bay">调贝</string>
+    <string name="revoke">撤销</string>
+
+
+    <string name="error_field_required">请求失败，请检查网络</string>
+
+    <string name="refuse_pmission">你拒绝了此权限，如需安装更新请打开此权限</string>
+
+    //设置
+    <string name="voyage_select_success">航次选择成功</string>
+    <string name="date_change_success">日期修改成功</string>
+    <string name="class_change_success">班别修改成功</string>
+    <string name="holiday_change_success">节假日修改成功</string>
+
+    //进出口理货
+    <string name="view_pager_title_in_tally">进口</string>
+    <string name="view_pager_title_out_tally">出口</string>
+    <string name="view_pager_title_in_double_tally">进口双吊</string>
+    <string name="view_pager_title_out_double_tally">出口双吊</string>
+
+    //航次选择
+    <string name="no_arrange_voyage">未有派工航次</string>
+
+
+    <string name="no_bay_standard">未有贝位规范</string>
+    <string name="download_success">下载成功</string>
+    <string name="download_error_field_required">下载失败，请检查网络</string>
+</resources>
